@@ -1,0 +1,39 @@
+#!/bin/tcsh
+
+gmtset FORMAT_GEO_MAP ddd:mm:ssF
+gmtset FONT_ANNOT_PRIMARY 11p
+gmtset FONT_LABEL 14p
+
+set region = "-R67/80/38/44"
+set boundaries = "-Ba1g2"
+set projection = "-Jm1"
+set misc = "-K -Y10"
+set post = CentralAsia.ps
+
+#grdcut topo15.grd -GCentralAsia.grd $region -V
+#grdgradient CentralAsia.grd -A0 -Ne0.5 -fg -GCentralAsiaGradient.grd
+#grd2cpt CentralAsia.grd -Crelief > CentralAsia.cpt
+#makecpt -Ctopo -T-12000/8000/50 -Z > CentralAsia.cpt
+
+psbasemap $region $projection $boundaries $misc > $post
+
+grdimage CentralAsia.grd -ICentralAsiaGradient.grd -R -J -B -CCentralAsia.cpt -K -P -O >> $post
+
+#grdcontour CentralAsia.grd -C500 -R -J -O -V -K >>$post
+
+pscoast -R -J -B -N1/0.75p,0/0/0 -Di -K -O >> $post
+
+
+cat CACountries.txt | pstext -R -J -O -K >> $post
+cat CACapitals.txt | pstext -R -J -Dj0.12c/0.12c -O -K >> $post
+
+cat CAEQ.txt | psxy -J -R -Sa0.5c -G204/0/0 -W0.25p -O -K >> $post
+cat CACapitals.txt | psxy -J -R -Ss0.25c -G204/0/0 -W0.25p -O >> $post
+
+#set misc = "-K -O -Bnesw+g255"
+#psbasemap -R65/82/35/45 -Jm1 $misc -Y2.0i >> $post
+
+#psscale -CCentralAsia.cpt -D0.5c/2.5c/4c/0.4c -B:"m": -L -O >> CentralAsia.ps
+
+ps2pdf CentralAsia.ps CentralAsia.pdf
+pdfcrop CentralAsia.pdf ../thesis/Figures/CentralAsia.pdf

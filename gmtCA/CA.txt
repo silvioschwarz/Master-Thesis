@@ -1,0 +1,7 @@
+50:25 40:32 8 0 0 BR Hängende Gärten der Semiramis
+28:12 36:23 8 0 0 TL Koloss von Rhodos
+27:26 37:02 8 0 0 ML Mausoleum von Halikarnassos
+29:53 31:13 8 0 0 TR Pharos von Alexandria
+31:08 29:59 8 0 0 BL Pyramiden von Gizeh
+27:22 37:57 8 0 0 BL Tempel der Artemis
+21:38 37:38 8 0 0 TC Zeusstatue des Phidias

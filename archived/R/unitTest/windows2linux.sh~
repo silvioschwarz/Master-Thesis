@@ -1,0 +1,13 @@
+#!/bin/bash
+
+find ./ -iname '*.R' -exec echo sed -i 's/\.\\/\\/g' '{}' ';'
+find ./ -iname '*.R' -exec echo sed -i 's/\.\\/\\/g' '{}' ';'
+find ./ -iname '*.R' -exec echo sed -i 's/\.\\/\\/g' '{}' ';'
+
+
+#convert to format that both unix and windows can read
+#sed -i  *.R
+#sed -i 's/\\/\//g' *.R
+
+# replace the <- which is just ugly as so many things in R
+#sed -i 's/<-/=/g' *.R

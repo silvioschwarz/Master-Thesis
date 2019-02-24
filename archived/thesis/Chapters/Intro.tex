@@ -1,0 +1,15 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+
+Despite their qualitative and subjective nature macroseismic intensities are still a key subject of seismology and especially of earthquake hazard analysis and engineering. For regions with no or just a sparse network of seismic stations they pose a way of generating local attenuation relationships making use of large historical records of felt effects of earthquakes.\\
+Since the pioneering work of \cite{Koveslighety1906} many different models have been developed in trying to find a relation between macroseismic intensity and distance from the source of an earthquake. In the recent past this lead to an increased interest in macroseismic intensities mainly in Italy and the development of new attenuation relationships (\cite{Albarello2004}, \cite{Carletti2003}, \cite{Gasperini2001}, \cite{Pasolini2008}). The vast majority tackles this problem from a regression approach with different functional forms and parameters like local site condition  fitted to a dataset of observed macroseismic intensities or by using conversion relationships between instrumental ground motion values.\\
+\cite{Rotondi2004} proposed a probabilistic model that respects the categorical nature of intensities. It models the intensity decay by using the discrete-valued binomial distribution to represent the intensities. Through the Bayesian theorem prior distributions are updated by observed values of macroseismic intensity.
+
+This thesis is concerned with evaluating the performance of the approach by \cite{Rotondi2004}. A sensitivity study is carried out concerning the influence of  different parameters on the prediction performance. This is first applied to a synthetic data set in order to be able to generate an arbitrary amount of data and to be sure no other effects influence the result of the performance test. Than this procedure is performed on macroseismic data from Central Asia.\\
+The main aim of this thesis is to gather an understanding of the model of \cite{Rotondi2004} and to give a guidance how to use it in addition to knowledge of past earthquakes to draw conclusions and forecast probabilities for future scenarios. All computations where performed using the R programming language \citep{R} and the integrated development environment RStudio \citep{RStudio}. The Pakage caret \citep{caret} was used to perform the cross-validation. Foreach\citep{foreach} and doParallel \citep{doParallel} for parallel computation. NLS2 \citep{nls2} for gridsearch.\\
+All is available at Github: \href{ https://github.com/silvioschwarz/master-thesis}{ https://github.com/silvioschwarz/master-thesis}.

@@ -1,0 +1,105 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Abu-Mostafa et~al.}{2012}]{LearningFromData}
+Abu-Mostafa, Y.~S., Magdon-Ismail, M., and Lin, H.-T. (2012).
+\newblock {\em Learning From Data}.
+\newblock AMLBook.
+
+\bibitem[\protect\astroncite{Albarello and D'Amico}{2004}]{Albarello2004}
+Albarello, D. and D'Amico, V. (2004).
+\newblock {Attenuation relationship of macroseismic intensity in italy for
+  probabilistic seismic hazard assessment}.
+\newblock {\em Bollettino di Geofisica Teorica ed Applicata}, 45(4):271--284.
+
+\bibitem[\protect\astroncite{Analytics and Weston}{2015a}]{doParallel}
+Analytics, R. and Weston, S. (2015a).
+\newblock {\em doParallel: Foreach Parallel Adaptor for the 'parallel'
+  Package}.
+\newblock R package version 1.0.10.
+
+\bibitem[\protect\astroncite{Analytics and Weston}{2015b}]{foreach}
+Analytics, R. and Weston, S. (2015b).
+\newblock {\em foreach: Provides Foreach Looping Construct for R}.
+\newblock R package version 1.4.3.
+
+\bibitem[\protect\astroncite{Carletti and Gasperini}{2003}]{Carletti2003}
+Carletti, F. and Gasperini, P. (2003).
+\newblock {Lateral variations of seismic intensity attenuation in Italy}.
+\newblock {\em Geophysical Journal International}, 155(3):839--856.
+
+\bibitem[\protect\astroncite{Dziewonski et~al.}{1981}]{HarvardCMT1}
+Dziewonski, A., Chou, T.-A., and Woodhouse, J. (1981).
+\newblock Determination of earthquake source parameters from waveform data for
+  studies of global and regional seismicity.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  86(B4):2825--2852.
+
+\bibitem[\protect\astroncite{Ekstr{\"o}m et~al.}{2012}]{HarvardCMT2}
+Ekstr{\"o}m, G., Nettles, M., and Dziewo{\'n}ski, A. (2012).
+\newblock The global cmt project 2004--2010: centroid-moment tensors for 13,017
+  earthquakes.
+\newblock {\em Physics of the Earth and Planetary Interiors}, 200:1--9.
+
+\bibitem[\protect\astroncite{Gasperini}{2001}]{Gasperini2001}
+Gasperini, P. (2001).
+\newblock {The attenuation of seismic intensity in Italy: A bilinear shape
+  indicates the dominance of deep phases at epicentral distances longer than 45
+  km}.
+\newblock {\em Bulletin of the Seismological Society of America},
+  91(4):826--841.
+
+\bibitem[\protect\astroncite{Grothendieck}{2013}]{nls2}
+Grothendieck, G. (2013).
+\newblock {\em nls2: Non-linear regression with brute force}.
+\newblock R package version 0.2.
+
+\bibitem[\protect\astroncite{Koveslighety}{1906}]{Koveslighety1906}
+Koveslighety, R. (1906).
+\newblock {Seismonomia}.
+\newblock {\em Boll. Soc. Sism. Ital.}, 13.
+
+\bibitem[\protect\astroncite{Max~Kuhn et~al.}{2016}]{caret}
+Max~Kuhn, J.~W., Weston, S., Williams, A., Keefer, C., Engelhardt, A., Cooper,
+  T., Mayer, Z., Kenkel, B., the R~Core~Team, Benesty, M., Lescarbeau, R.,
+  Ziem, A., Scrucca, L., Tang, Y., and Candan., C. (2016).
+\newblock {\em caret: Classification and Regression Training}.
+\newblock R package version 6.0-64.
+
+\bibitem[\protect\astroncite{Pasolini et~al.}{2008}]{Pasolini2008}
+Pasolini, C., Gasperini, P., Albarello, D., Lolli, B., and D'Amico, V. (2008).
+\newblock {The attenuation of seismic intensity in Italy, Part I: Theoretical
+  and empirical backgrounds}.
+\newblock {\em Bulletin of the Seismological Society of America},
+  98(2):682--691.
+
+\bibitem[\protect\astroncite{{R Core Team}}{2015}]{R}
+{R Core Team} (2015).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[\protect\astroncite{Rotondi and Zonno}{2004}]{Rotondi2004}
+Rotondi, R. and Zonno, G. (2004).
+\newblock {Bayesian analysis of a probability distribution for local intensity
+  attenuation}.
+\newblock {\em Annals of Geophysics}, 47(5):1521--1540.
+
+\bibitem[\protect\astroncite{{RStudio Team}}{2012}]{RStudio}
+{RStudio Team} (2012).
+\newblock {\em Rstudio: Integrated Development Environment for R}.
+\newblock RStudio, Inc., Boston, MA.
+
+\bibitem[\protect\astroncite{Stromeyer and
+  Gr{\"u}nthal}{2009}]{stromeyer2009attenuation}
+Stromeyer, D. and Gr{\"u}nthal, G. (2009).
+\newblock Attenuation relationship of macroseismic intensities in central
+  europe.
+\newblock {\em Bulletin of the Seismological Society of America},
+  99(2A):554--565.
+
+\bibitem[\protect\astroncite{Tsapanos et~al.}{2002}]{Tsapanos2002}
+Tsapanos, T.~M., Galanis, O.~C., Koravos, G.~C., and Musson, R.~M. (2002).
+\newblock {A method for Bayesian estimation of the probability of local
+  intensity for some cities in Japan}.
+\newblock {\em Annals of Geophysics}, 45(October).
+
+\end{thebibliography}
